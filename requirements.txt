@@ -1,0 +1,24 @@
+# 核心依赖
+playwright>=1.40.0
+aiofiles>=23.2.1
+loguru>=0.7.2
+
+# 数据处理
+dataclasses-json>=0.6.1
+
+# 可选依赖（如果需要与其他系统集成）
+requests>=2.31.0
+httpx>=0.25.0
+
+# 开发依赖（可选）
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+
+# 监控服务依赖（可选）
+schedule>=1.2.0
+
+# GUI依赖
+ttkbootstrap>=1.10.1
+pillow>=10.0.0

@@ -1,0 +1,21 @@
+{
+  "timeout": 30,
+  "delay_min": 2,
+  "delay_max": 5,
+  "data_dir": "./data/aliyun_cve",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  "cache_ttl": 86400,
+  "theme": "superhero",
+  "window_size": {
+    "width": 1200,
+    "height": 800
+  },
+  "default_crawl_mode": "normal",
+  "default_pages": 10,
+  "default_start_page": 1,
+  "default_days": 7,
+  "auto_save_config": true,
+  "auto_export_results": false,
+  "show_browser_by_default": false,
+  "log_level": "INFO"
+}

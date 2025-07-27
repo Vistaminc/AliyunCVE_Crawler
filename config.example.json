@@ -1,0 +1,36 @@
+{
+  "crawler": {
+    "max_pages": 50,
+    "delay_range": [2, 5],
+    "timeout": 60,
+    "headless": true,
+    "data_dir": "./data/aliyun_cve",
+    "cache_ttl": 86400
+  },
+  "monitoring": {
+    "enabled": true,
+    "check_interval": 14400,
+    "data_dir": "./monitoring_data",
+    "alerts": {
+      "critical_threshold": 1,
+      "high_risk_threshold": 3,
+      "cvss_threshold": 8.0
+    },
+    "email": {
+      "enabled": false,
+      "smtp_server": "smtp.gmail.com",
+      "smtp_port": 587,
+      "use_tls": true,
+      "from": "your-email@gmail.com",
+      "to": ["admin@company.com"],
+      "username": "your-email@gmail.com",
+      "password": "your-app-password"
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "./logs/crawler.log",
+    "rotation": "1 day",
+    "retention": "30 days"
+  }
+}
