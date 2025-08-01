@@ -242,6 +242,10 @@ async def incremental_crawl():
 
 - 项目主页: https://github.com/vistaminc/AliyunCVE_Crawler
 - 问题反馈: https://github.com/vistaminc/AliyunCVE_Crawler/issues
+- 
+
+## Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=vistaminc/AliyunCVE_Crawler&type=Date)](https://www.star-history.com/#)
 
 ## 🙏 致谢
 
